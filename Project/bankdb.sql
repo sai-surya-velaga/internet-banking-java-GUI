@@ -1,0 +1,1 @@
+bankdbtransactionsuser_details
