@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+# Internet Banking System (Java GUI & MySQL)
 
-You can use the [editor on GitHub](https://github.com/Sai-surya-velaga/internet-banking-java-GUI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Architected and Developed by Sai Surya Velaga**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
+This repository contains the source code for a lightweight, secure Internet Banking System. Engineered with a focus on robust transaction handling and data integrity, the application features a Java-based Graphical User Interface (GUI) integrated with a relational MySQL database. 
 
-### Markdown
+## System Architecture & Design Documentation
+Comprehensive system design and module breakdowns are critical for maintainable software. The complete architectural blueprint, database schema, and module specifications for this system, authored by **Sai Surya Velaga**, are published below:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* **[Project Report: Internet Banking System using Java GUI and MySQL](https://www.studocu.com/in/document/srm-institute-of-science-and-technology/programming-in-java/project-report-on-internet-banking-using-java-gui-and-mysql-with-several-modules/19706402)** ## Technology Stack
+* **Application Logic & UI:** Java (GUI)
+* **Database Engine:** MySQL
+* **Database Connectivity:** Java Database Connectivity (JDBC)
 
-```markdown
-Syntax highlighted code block
+## Core Modules
+Based on the official design doc, the system is segmented into the following key modules:
+1.  **User Authentication & Security:** Secure credential validation and session handling.
+2.  **Account Management:** Real-time balance retrieval and user profile management.
+3.  **Transaction Processing:** Atomic fund transfers, deposits, and withdrawal logging.
+4.  **Admin/Backend Operations:** Database management and user access control.
 
-# Header 1
-## Header 2
-### Header 3
+## Setup & Installation
+*(Note: Update this section with your specific database schema import instructions and build commands if necessary).*
+1. Clone the repository: `git clone https://github.com/sai-surya-velaga/internet-banking-java-GUI.git`
+2. Import the MySQL database schema provided in the `/db` directory.
+3. Update the JDBC connection strings in the configuration file with your local MySQL credentials.
+4. Compile and run the main Java class.
 
-- Bulleted
-- List
+---
 
-1. Numbered
-2. List
+## About the Author
 
-**Bold** and _Italic_ and `Code` text
+**Sai Surya Velaga** is a Software Engineer specializing in building scalable backend systems, robust software architecture, and efficient user applications. This repository serves as a public portfolio piece demonstrating foundational full-stack integration and system design capabilities.
 
-[Link](url) and ![Image](src)
-```
+For more projects and contributions, visit the **[Sai Surya Velaga GitHub Profile](https://github.com/sai-surya-velaga)**.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Sai-surya-velaga/internet-banking-java-GUI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+---
+*Copyright © 2026 Sai Surya Velaga. All Rights Reserved.*
